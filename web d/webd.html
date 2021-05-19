@@ -1,0 +1,1411 @@
+<!doctype html>
+<html>
+
+
+    
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="css/all.min.css">
+  
+  <link href='https://fonts.googleapis.com/css?family=Artifika' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Italianno' rel='stylesheet'>
+<link rel="stylesheet" href="css/fontawesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Beth Ellen' rel='stylesheet'>
+    <title>lemon</title>
+      
+   <meta charset="utf-8" />
+   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style type="text/css" >
+html {
+  scroll-behavior: smooth;
+}
+    
+    body{
+      background: #333;
+    }
+
+
+#bar1 {
+          width: 100%;
+          height: 100px;
+          background-color:#F2F0D5;
+          position: fixed;
+         
+}
+    
+#bar2 {
+          width: 100%;
+          height: 50px;
+          background-color:#F2C53D;
+          float: left;
+          position: fixed;
+          margin-top: 100px;
+          text-decoration: none;
+}
+
+    
+#logo img{
+    width: 14%;
+   margin-top: -45px;
+   margin-left: 25px;
+   position: fixed;
+}
+   
+    #navigation-bar ul {
+    float:left;
+    padding: 0 0 0 100px;
+    margin:10px 0 100px 0px;
+    height:46px;
+    text-decoration:none;
+    color: white;
+    
+    }
+    #navigation-bar li {
+    float:left;
+    color:white;
+    font-size:25px;
+    height:33px;
+    list-style:none;
+    text-decoration:none;
+    padding: 0px 70px 0 70px;
+    height:40px;
+   
+    }
+    
+    #home:hover {
+    border-bottom:5px solid #A6BF4B;
+    }
+    #original:hover {
+    border-bottom:5px solid #A6BF4B;
+    }
+    #order-now:hover {
+    border-bottom:5px solid #A6BF4B;
+    }
+    #reviews:hover {
+    border-bottom:5px solid #A6BF4B;
+    }
+    #know-More:hover {
+    border-bottom:5px solid #A6BF4B;
+    }
+   #navbar {
+       
+       float: left;
+       width: 100%;
+       margin-bottom: 20px;
+       text-decoration:none;
+      
+       
+   }
+   
+   .coverpage{
+       display: flex;
+       text-align: center;
+       border:6px #ccc solid;
+       background-color:#F2F0D5;
+       padding: 1%;
+       margin-top: 100px;
+       
+      
+       }
+.button {
+  background-color: #F2F0D5;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+  
+   .right{
+       flex:1;
+       text-align: center;
+       position: center;
+       margin-top:12%;
+       line-height: 4px;
+       font-family: "Sofia", sans-serif;
+       
+    }
+    h1.a {
+      font-family: 'Annie Use Your Telescope';
+     font-size: 50px;
+}
+   .big {
+    font-family: 'Artifika';
+    font-size: 49px;
+    color: #F24E29
+   
+   }
+   .left{
+       flex:1;
+       padding: 10px;
+   }
+
+    .title {
+        text-align: center;
+        font-size: 40px;
+        line-height:20px;
+        margin-top: 10%;
+       
+  }
+    .title1 {
+        text-align: center;
+        font-size: 100px;
+        color: #F2C53D;
+        margin-top: 1px;
+        font-family: Copperplate, Papyrus, fantasy;
+
+        
+
+  }
+    .subtitle {
+        text-align: center;
+        
+        font-family: "Brush Script MT", cursive;
+       
+        
+}
+    
+   .t1 {
+     font-size: 100px;
+     font-family: Copperplate, Papyrus, fantasy;
+     color: #F2C53D;
+   }
+
+.t2{ 
+  font-family: 'Italianno';
+  color: #B1B1AC;
+  
+}
+    html {
+      box-sizing: border-box;
+      font-size: 50%;
+    }
+
+
+    
+ 
+ 
+ 
+ .grid {
+   display: grid;
+   padding: 7%;
+   width: 155em;
+   grid-gap: 30px;
+   grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+   
+ }
+
+ .grid-item {
+   background-color: #fff;
+   border-radius: 0.4rem;
+   overflow: hidden;
+   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.5);
+   cursor: pointer;
+   margin-top: 20px;
+   transition: 0.2s;
+ }
+
+ .grid-item:hover {
+   transform: translateY(-0.5%);
+   box-shadow: 0 2rem 4rem rgba(248, 248, 245, 0.5);;
+ }
+
+ .card-img {
+   display: block;
+   width: 100%;
+   height: 30rem;
+   object-fit: cover;
+ }
+
+ .card-content {
+   padding: 4rem;
+ }
+
+ .card-header {
+   font-size: 4rem;
+   font-weight: 600;
+   color: #0d0d0d;
+   margin-bottom: 1rem;
+   
+ }
+
+ .card-text {
+   font-size: 4rem;
+   letter-spacing: 0.1rem;
+   line-height: 1.7;
+   color: #3d3d3d;
+   margin-bottom: 2.5rem;
+   font-family: "Poppins", sans-serif;
+ }
+
+ .card-btn {
+   display: block;
+   width: 100%;
+   padding: 1.5rem;
+   font-size: 3rem;
+   text-align: center;
+   color: #3363ff;
+   background-color: #d8e0fd;
+   border: none;
+   border-radius: 0.4rem;
+   cursor: pointer;
+   letter-spacing: 0.1rem;
+ }
+
+ .card-btn span {
+   margin-left: 1rem;
+   transition: 0.2s;
+ }
+
+ .card-btn:hover,
+ .card-btn:active {
+   background-color: #c2cffc;
+ }
+
+ .card-btn:hover span,
+ .card-btn:active span {
+   margin-left: 1.5rem;
+ }
+
+ @media only screen and (max-width: 60em) {
+   body {
+       padding: 3rem;
+   }
+
+   .grid {
+     grid-gap: 3rem;
+   }
+ }
+    
+    
+    
+    
+    .grid1 {
+      display: grid;
+      padding: 7%;
+      width: 155em;
+      grid-gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+      
+    }
+
+    .grid-item1 {
+      background-color: #fff;
+      border-radius: 0.4rem;
+      overflow: hidden;
+      box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+      margin-top: 20px;
+      transition: 0.2s;
+    }
+
+    .grid-item1:hover {
+      transform: translateY(-0.5%);
+      box-shadow: 0 2rem 4rem rgba(248, 248, 245, 0.5);
+    }
+
+    .card-img1 {
+      display: block;
+      width: 100%;
+      height: 30rem;
+      object-fit: cover;
+    }
+
+    .card-content1 {
+      padding: 4rem;
+    }
+
+    .card-header1 {
+      font-size: 4rem;
+      font-weight: 600;
+      color: #0d0d0d;
+      margin-bottom: 1rem;
+    }
+
+    .card-text1 {
+      font-size: 4rem;
+   letter-spacing: 0.1rem;
+   line-height: 1.7;
+   color: #3d3d3d;
+   margin-bottom: 2.5rem;
+   font-family: "Poppins", sans-serif;
+    }
+
+    .card-btn1 {
+      display: block;
+   width: 100%;
+   padding: 1.5rem;
+   font-size: 3rem;
+   text-align: center;
+   color: #3363ff;
+   background-color: #d8e0fd;
+   border: none;
+   border-radius: 0.4rem;
+   cursor: pointer;
+   letter-spacing: 0.1rem;
+ }
+
+    .card-btn span1 {
+      margin-left: 1rem;
+      transition: 0.2s;
+    }
+
+    .card-btn1:hover,
+    .card-btn1:active {
+      background-color: #c2cffc;
+    }
+
+    .card-btn1:hover span,
+    .card-btn1:active span {
+      margin-left: 1.5rem;
+    }
+
+    @media only screen and (max-width: 60em) {
+      body {
+          padding: 3rem;
+      }
+
+      .grid {
+        grid-gap: 3rem;
+      }
+    }
+    
+    
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.wrap{
+margin-top: 100%;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+    
+    .grid2 {
+      display: grid;
+      padding: 7%;
+      width: 155em;
+      grid-gap: 30px;
+      grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+      
+    }
+
+    .grid-item2 {
+      background-color: #fff;
+      border-radius: 0.4rem;
+      overflow: hidden;
+      box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+      margin-top: 20px;
+      transition: 0.2s;
+    }
+
+    .grid-item2:hover {
+      transform: translateY(-0.5%);
+      box-shadow: 0 2rem 4rem rgba(248, 248, 245, 0.5);;
+    }
+
+    .card-img2 {
+      display: block;
+      width: 100%;
+      height: 30rem;
+      object-fit: cover;
+    }
+
+    .card-content2 {
+      padding: 4rem;
+    }
+
+    .card-header2 {
+      font-size: 4rem;
+   font-weight: 600;
+   color: #0d0d0d;
+   margin-bottom: 1rem;
+    }
+
+    .card-text2 {
+      font-size: 4rem;
+   letter-spacing: 0.1rem;
+   line-height: 1.7;
+   color: #3d3d3d;
+   margin-bottom: 2.5rem;
+   font-family: "Poppins", sans-serif;
+ }
+
+    .card-btn2 {
+      display: block;
+   width: 100%;
+   padding: 1.5rem;
+   font-size: 3rem;
+   text-align: center;
+   color: #3363ff;
+   background-color: #d8e0fd;
+   border: none;
+   border-radius: 0.4rem;
+   cursor: pointer;
+   letter-spacing: 0.1rem;
+    }
+
+    .card-btn span2 {
+      margin-left: 1rem;
+      transition: 0.2s;
+    }
+
+    .card-btn2:hover,
+    .card-btn2:active {
+      background-color: #c2cffc;
+    }
+
+    .card-btn2:hover span,
+    .card-btn2:active span {
+      margin-left: 1.5rem;
+    }
+
+    @media only screen and (max-width: 60em) {
+      body {
+          padding: 3rem;
+      }
+
+      .grid {
+        grid-gap: 3rem;
+      }
+    }
+    
+    
+    
+    
+    
+    
+    
+    .middler{
+      position: absolute;
+      top: 400%;
+      left: 17%;
+      transform: translate(-50%,-50%);
+    }
+    
+    .middlebackr{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    .cardr{
+      cursor: pointer;
+      width: 340px;
+      height: 480px;
+    }
+    .frontr,.backr{
+      width: 100%;
+      height: 100%;
+      margin-top: 500px;
+      margin-left: 0px;
+      overflow: hidden;
+      backface-visibility: hidden;
+      position: absolute;
+      transition: transform .6s linear;
+    }
+    .frontr img{
+      width: 100%;
+    }
+    .frontr{
+      transform: perspective(600px) rotateY(0deg);
+    }
+    .backr{
+      background: #f1f1f1;
+      transform: perspective(600px) rotateY(180deg);
+    }
+    .back-contentr{
+      color: #2c3e50;
+      text-align: center;
+      height: 100%;
+      font-size: 20px;
+      margin-top: 15px;
+      
+    }
+    
+    
+    .cardr:hover > .frontr{
+      transform: perspective(600px) rotateY(-180deg);
+    }
+    .cardr:hover > .backr{
+      transform: perspective(600px) rotateY(0deg);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .middler1{
+      position: absolute;
+      top: 430%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    
+    .middlebackr1{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    .cardr1{
+      cursor: pointer;
+      width: 340px;
+      height: 480px;
+    }
+    .frontr1,.backr1{
+      width: 100%;
+      height: 100%;
+      margin-top: 500px;
+      margin-left: 0px;
+      overflow: hidden;
+      backface-visibility: hidden;
+      position: absolute;
+      transition: transform .6s linear;
+    }
+    .frontr1 img{
+      height: 100%;
+    }
+    .frontr1{
+      transform: perspective(600px) rotateY(0deg);
+    }
+    .backr1{
+      background: #f1f1f1;
+      transform: perspective(600px) rotateY(180deg);
+    }
+    .back-contentr1{
+        color: #2c3e50;
+        text-align: center;
+        height: 100%;
+        font-size: 20px;
+        margin-top: 38px;
+    }
+    
+    
+    .cardr1:hover > .frontr1{
+      transform: perspective(600px) rotateY(-180deg);
+    }
+    .cardr1:hover > .backr1{
+      transform: perspective(600px) rotateY(0deg);
+    }
+    
+    
+    
+    
+    
+    .middler2{
+      position: absolute;
+      top: 400%;
+      left: 80%;
+      transform: translate(-50%,-50%);
+    }
+    
+    .middlebackr2{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    .cardr2{
+      cursor: pointer;
+      width: 340px;
+      height: 480px;
+    }
+    .frontr2,.backr2{
+      width: 100%;
+      height: 100%;
+      margin-top: 500px;
+      margin-left: 40px;
+      overflow: hidden;
+      backface-visibility: hidden;
+      position: absolute;
+      transition: transform .6s linear;
+    }
+    .frontr2 img{
+      width: 100%;
+    }
+    .frontr2{
+      transform: perspective(600px) rotateY(0deg);
+    }
+    .backr2{
+      background: #f1f1f1;
+      transform: perspective(600px) rotateY(180deg);
+    }
+    .back-contentr2{
+        color: #2c3e50;
+        text-align: center;
+        height: 100%;
+        font-size: 20px;
+        margin-top: 38px;
+    }
+    
+    
+    .cardr2:hover > .frontr2{
+      transform: perspective(600px) rotateY(-180deg);
+    }
+    .cardr2:hover > .backr2{
+      transform: perspective(600px) rotateY(0deg);
+    }
+    
+   
+    
+    #lastbox {
+              width: 100%;
+              height: 400px;
+              margin-top: 56%;
+              background-color:#F2F0D5;
+              
+    }
+    
+    /* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+    
+.inner-footer{
+    margin: 0 0 0 0;
+    text-align: center;
+    background-color: #000000;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.quick-links{
+  display:flex;
+  width: 560px;
+  height: 70px;
+  margin: auto;
+
+}
+.quick-links ul{
+  display:flex;
+}
+
+.quick-items {
+  list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+  
+}
+
+.quick-items a{
+  text-decoration:none;
+  padding:0 15px;
+  font-size:18px;
+  color:white;
+  transition: all .25s ;
+}
+
+.quick-items a:hover{
+  color:#56aaa4;
+
+}
+.outer-footer{
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.login-box {
+  position: absolute;
+  top: 555%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+
+.login-box a:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+}
+
+.login-box a span {
+  position: absolute;
+  display: block;
+}
+
+.login-box a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+.login-box a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+.login-box a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+.login-box a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}
+
+    
+    
+    body {
+    margin:0;
+    }
+</style>
+
+</head>
+<body>
+<div>
+
+ <div id="navbar">
+    <div id="Container">
+          <div id="bar1">
+              <div id="logo">
+                    <img src="Images/logo.png" />
+              </div>
+
+          </div>
+    
+    </div>
+    
+          <div id="bar2">
+              
+                <div id="navigation-bar">
+                    
+                      <ul>
+                      <li id="home"><a href="#coverpage" style="text-decoration:none">Home</a>
+                      </li>
+                      <li id="original"><a href="#title" style="text-decoration:none" >
+                      Lemon's Original</a>
+                      </li>
+                      <li id="order-now"><a href="#title1" style="text-decoration:none">
+                      Order Now</a>
+                      </li>
+                      <li id="reviews"><a href="#gridr" style="text-decoration:none">Reviews</a>
+                      
+                      </li>
+                      <li id="know-More"><a href="#footer" style="text-decoration:none">Know More</a>
+                      
+                      </li>
+                      
+                      
+                </div>
+                       </ul>
+          </div>
+     
+ </div>
+   <div>
+     <a name="coverpage"> 
+<div>
+  
+<div class="coverpage">
+    <div class="left">
+        <div id ="cover-page">
+              <div>
+                    <video src="images/lemon cp.mp4"  height="400px" autoplay loop >
+                     </video>
+              </div>
+        </div>
+    </div>
+
+        <div class="right">
+            <h1 class="a">lemon</h1 >
+              <div class="big">
+            <p>INVENTIVE INDIAN CUISINE </p>
+          </div>
+            <div>
+              <button type="button"><a href="#title" style="text-decoration:none" >
+                Check Our Specialities</a></button>
+            </div>
+        </div>
+</div>
+
+</div>
+</div>
+</a>
+<a name="title"> 
+<div>
+    <div class="title">
+    <h1 class="t1">Lemon's Original</h1>
+    <p class="t2">by chef abhimanyu</p>
+    
+    </div>
+    </div>
+</div>
+</div>
+</a>
+
+<div>
+<div class="grid">
+  <div class="grid-item">
+    <div class="card">
+      <img class="card-img" src="images/burger1.jpg" alt="Rome" />
+      <div class="card-content">
+        <h1 class="card-header">Chilli Burger</h1>
+        <p class="card-text">
+          20% OFF
+              <br>       <strong >Rs <s>170</s> 136/- </strong >
+                   </p>
+        <button class= "card-btn1" onclick="this.innerHTML = 'ADDED'" >ADD+</button>
+      </div>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="card">
+      <img
+        class="card-img"
+        src="images/salmon1.jpg"
+        alt="Grand Canyon"
+      />
+      <div class="card-content">
+        <h1 class="card-header">Breakfast Special</h1>
+        <p class="card-text">
+          20% OFF
+              <br>       <strong >Rs <s>170</s> 136/- </strong >
+                   </p>
+        <button class= "card-btn1" onclick="this.innerHTML = 'ADDED'" >ADD+</button>
+      </div>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="card">
+      <img
+        class="card-img"
+        src="images/breakfast1.jpg"
+        alt="Grand Canyon"
+      />
+      <div class="card-content">
+        <h1 class="card-header">Pancakes</h1>
+        <p class="card-text">
+          20% OFF
+              <br>       <strong >Rs <s>170</s> 136/- </strong >
+                   </p>
+        <button class= "card-btn1" onclick="this.innerHTML = 'ADDED'" >ADD+</button>
+      </div>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="card">
+      <img
+        class="card-img"
+        src="images/lemon1.jpg"
+        alt="Kabab"
+      />
+      <div class="card-content">
+        <h1 class="card-header">Kabab</h1>
+        <p class="card-text">
+          20% OFF
+              <br>       <strong >Rs <s>170</s> 136/- </strong >
+                   </p>
+        <button class= "card-btn1" onclick="this.innerHTML = 'ADDED'" >ADD+</button>
+      </div>
+    </div>
+  </div>
+  </div>
+       
+       <div>
+        <a name="title1"> 
+           <div class="title1">
+           <p>Recommendations</p>
+           
+           
+           </div>
+           </a>
+       </div>
+       
+     <div>
+       <div class="wrap">
+        <div class="search">
+           <input type="text" class="searchTerm" placeholder="What are you looking for?">
+           <button type="submit" class="searchButton">
+             <i class="fa fa-search"></i>
+          </button>
+        </div>
+     </div>
+    </div>
+       <div>
+       <div>
+       <div>
+       <div>
+     <div>
+          <div class="grid1">
+            <div class="grid-item1">
+              <div class="card1">
+                <img class="card-img1" src="images/9.jpg" alt="Rome" />
+                <div class="card-content1">
+                  <h1 class="card-header1">Mango Shrikhand</h1>
+                  <p class="card-text">
+                    20% OFF
+                        <br>       <strong >Rs <s>140</s> 112/- </strong >
+                             </p>
+                  
+                  <button class= "card-btn1" onclick="this.innerHTML = 'ADDED'" >ADD+</button>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item1">
+              <div class="card1">
+                <img
+                  class="card-img1"
+                  src="images/2.jpg"
+                  alt="Grand Canyon"
+                />
+                <div class="card-content1">
+                  <h1 class="card-header1">Cheesy Pizza</h1>
+                  <p class="card-text">
+                    20% OFF
+                        <br>       <strong >Rs <s>170</s> 136/- </strong >
+                             </p>
+                  <button class= "card-btn1" onclick="this.innerHTML = 'ADDED'" >ADD+</button>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item1">
+              <div class="card1">
+                <img
+                  class="card-img1"
+                  src="images/4.jpg"
+                  alt="Grand Canyon"
+                />
+                <div class="card-content1">
+                  <h1 class="card-header1">Penne Pasta</h1>
+                  <p class="card-text">
+                    20% OFF
+                        <br>       <strong >Rs <s>160</s> 128/- </strong >
+                             </p>
+                             <button class= "card-btn1" onclick="this.innerHTML = 'ADDED'" >ADD+</button>
+                </div>
+              </div>
+            </div>
+           
+            <div class="grid-item1">
+              <div class="card1">
+                <img
+                  class="card-img1"
+                  src="images/3.jpg"
+                  alt="Grand Canyon"
+                />
+                <div class="card-content1">
+                  <h1 class="card-header1">Shakin' Bakon</h1>
+                  <p class="card-text">
+                    20% OFF
+                        <br>       <strong >Rs <s>200</s> 160/- </strong >
+                             </p>
+                             <button class= "card-btn1" onclick="this.innerHTML = 'ADDED'" >ADD+</button>
+                </div>
+              </div>
+            </div>
+            </div>
+              </div>
+       </div>
+       </div>
+       
+       
+       
+       
+       <div>
+       <div>
+       <div>
+       <div>
+     <div>
+          <div class="grid2">
+            <div class="grid-item2">
+              <div class="card2">
+                <img class="card-img2" src="images/10.jpg" alt="Rome" />
+                <div class="card-content2">
+                  
+                  <h1 class="card-header2">Avacado Egg</h1>
+                  <p class="card-text">
+                    20% OFF
+                        <br>       <strong >Rs <s>120</s> 96/- </strong >
+                             </p>
+                  <button class= "card-btn1" onclick="this.innerHTML = 'ADDED'" >ADD+</button>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item2">
+              <div class="card2">
+                <img
+                  class="card-img1"
+                  src="images/6.jpg"
+                  alt="Grand Canyon"
+                />
+                <div class="card-content2">
+                  <h1 class="card-header2">Fried Chicken</h1>
+                  <p class="card-text">
+                    20% OFF
+                        <br>       <strong >Rs <s>220</s> 176/- </strong >
+                             </p>
+                  <button class= "card-btn1" onclick="this.innerHTML = 'ADDED'" >ADD+</button>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item2">
+              <div class="card2">
+                <img
+                  class="card-img2"
+                  src="images/7.jpg"
+                  alt="Grand Canyon"
+                />
+                <div class="card-content2">
+                  <h1 class="card-header2">Sushi</h1>
+                  <p class="card-text">
+                    20% OFF
+                        <br>       <strong >Rs <s>250</s> 200/- </strong >
+                             </p>
+                  <button class= "card-btn1" onclick="this.innerHTML = 'ADDED'" >ADD+</button>
+                </div>
+              </div>
+            </div>
+           
+            <div class="grid-item2">
+              <div class="card2">
+                <img
+                  class="card-img2"
+                  src="images/8.jpg"
+                  alt="Grand Canyon"
+                />
+                <div class="card-content2">
+                  <h1 class="card-header2">Tandoori Momos</h1>
+                  <p class="card-text">
+                    20% OFF
+                        <br>       <strong >Rs <s>150</s> 120/- </strong >
+                             </p>
+                  <button class= "card-btn1" onclick="this.innerHTML = 'ADDED'" >ADD+</button>
+                </div>
+              </div>
+            </div>
+            </div>
+              </div>
+       </div>
+       </div>
+       
+       
+      
+       
+      
+      <div>
+      <div>
+        <a name="gridr"> 
+          <div class="gridr">
+                   <div class="grid-itemr">
+                       <div class="cardr middler">
+                            <div class="frontr">
+                            <img src="images/c3.jpg" alt="">
+                            </div>
+                                 <div class="backr">
+                                     <div class="back-contentr middlebackr">
+                                     <h2>Emilly Green</h2>
+                                     <span> "Excellent food. Menu is extensive and seasonal to a pat deals on different nights so it’s worth checking them out before you book."</span>
+                 
+                                      </div>
+                                 </div>
+                      </div>
+                  </div>
+              
+                 </div>
+                 </a>
+                  
+
+              <div class="grid-itemr1">
+                  <div class="cardr1 middler1">
+                       <div class="frontr1">
+                       <img src="images/c2.jpg" alt="">
+                       </div>
+                            <div class="backr1">
+                                <div class="back-contentr1 middlebackr1">
+                                <h2>Daniel Gallor</h2>
+                                <span> "It’s a great experience. The ambiance is very welcoming and charming. Amazing wines, food and service. Staff are extremely knowledgeable and make great recommendations."</span>
+            
+                                 </div>
+                            </div>
+                 </div>
+             </div>
+
+
+
+
+          <div class="grid-itemr2">
+              <div class="cardr2 middler2">
+                   <div class="frontr2">
+                   <img src="images/c1.jpg" alt="">
+                   </div>
+                        <div class="backr2">
+                            <div class="back-contentr2 middlebackr2">
+                            <h2>Jos Smith</h2>
+                            <span>"This cozy restaurant has left the best impressions! Hospitable hosts, delicious dishes, beautiful presentation, wide wine list and wonderful dessert. I recommend to everyone! I would like to come back here again and again."</span>
+
+                             </div>
+                        </div>
+             </div>
+          </div>
+          </div>
+
+     </div>
+       </div>
+
+       <div class="login-box">
+        <h2>Share Your Experience</h2>
+        <form>
+          <div class="user-box">
+            <input type="text" name="" required="">
+            <label>Email ID</label>
+          </div>
+          <div class="user-box">
+            <input  name="" required="">
+            <label>Your Views</label>
+          </div>
+          <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Submit
+          </a>
+        </form>
+      </div>
+      <a name="footer"> 
+      <div>
+          <div id="lastbox">
+          </a>
+      </div>
+      
+      <footer class="footer">
+        <div class="inner-footer">
+          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/" class="fa fa-twitter"></a>
+          <a href="https://www.google.com/?client=safari" class="fa fa-google"></a>
+          <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+          <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+          <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            </div>
+          
+            <div class="quick-items">
+                <ul>
+                <li class="quick-items"><a href="#">Back to top</a></li>
+                <li class="quick-items"><a href="terms.html">terms & conditions</a></li>
+                <li class="quick-items"><a href="https://www.termsfeed.com/public/uploads/2019/04/privacy-policy-template.pdf">Privacy policy</a></li>
+                <li class="quick-items"><a href="https://authorservices.wiley.com/asset/Copyright-Transfer-Agreement-Sample.pdf">Copyright info</a></li>
+            </ul>
+            </div>
+        </div>
+      </div>
+       
+       
+       
+</body>
+</html>
+
+
